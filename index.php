@@ -14,7 +14,7 @@
     <div class="container">
 
             <div class="kwai__logo">
-                <img src="./assets/img/kwai.webp" alt="Kwai" class="kwai__logo-img" />
+                <img src="./assets/img/kwai.png" alt="Kwai" class="kwai__logo-img" />
             </div>
             <div class="kwai__headings">
                 <div class="kwai__title">Iniciar Sesión en Kwai</div>
@@ -44,8 +44,8 @@
             </div>
             <div class="kwai__form">
                 <form action="">
-                    <input type="text" name="email" placeholder="email" />
-                    <input type="password" name="password" placeholder="password" />
+                    <input type="text" name="email" placeholder="email" class="kwai__form-input "/>
+                    <input type="password" name="password" placeholder="password" class="kwai__form-input" />
                     <button class="button" type="submit">Login</button>
                 </form>
             </div>
