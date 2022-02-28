@@ -1,0 +1,55 @@
+body {
+  background: #f9f9fc;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 360px;
+    padding: 3rem;
+    row-gap: 1rem;
+}
+
+.kwai__headings, .kwai__social, .kwai__form{
+    width: 100%;
+}
+.kwai__logo-img{
+    width: 80px;
+    height: 80px;
+}
+.kwai__headings{
+    text-align: center;
+}
+    .kwai__title{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .kwai__subtitle{
+        font-size: .85rem;
+        font-weight: 300;
+        color: hsl(0, 0%, 74%);
+    }
+
+
+
+.social__button{
+    align-items: center;
+    background: #f2f2f2;
+    column-gap: 2rem;
+    display: flex;
+    font-size: .85rem;
+    margin-bottom: 1rem;
+    padding: .5rem .75rem;
+}
+    .kwai__social-icon{
+        width: 24px;
+        height: 24px;
+        border-radius: 5px;
+    }
